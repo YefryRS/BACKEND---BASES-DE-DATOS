@@ -1,0 +1,3 @@
+Primary Key(PK): Es el identificador unico perteneciente a la tabla propia. Por ejemplo: dni, id, codigo unico, etc.
+
+Foreign Key(FK): Es el primary key de otra tabla. Por ejemplo: el dni, id, codigo unico que hace referencia a otra tabla.

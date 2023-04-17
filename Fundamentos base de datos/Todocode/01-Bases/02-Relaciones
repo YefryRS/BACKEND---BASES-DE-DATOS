@@ -1,0 +1,13 @@
+Relaciones 
+
+1 a n (1 a muchos): UNA entidad puede relacionarse con N elementos de otra entidad. EN bases de datos, UNA tabla puede relacionarse con MUCHOS(N) registros de otra tabla.
+
+1 a 1: UNA entidad que se relaciona con UN solo registro de otra entidad. 
+
+n a n: MUCHAS entidades pueden relacionarse con MUCHOS registros de otras entidades
+
+EJERCICIO: Supongamos que una empresa de venta de electrodomesticos tiene: 
+- Clientes
+- Pedidos
+- Productos
+Se desea modelar a traves de un DER, la forma en que se implementaria la Base de Datos. (aparece aqui como "primer ejercicio", y en MySQL aparece como "electronico").

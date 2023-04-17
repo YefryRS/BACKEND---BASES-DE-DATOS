@@ -1,0 +1,11 @@
+DIAGRAMA ENTIDAD RELACION (DER)
+
+ABSTRACCION: Lo mismo que POO. Representar de forma logica objetos de la vida real
+MODELADO: Proporciona los medios necesarios para conseguir una abstraccion. Es una representacion que modele esos objetos.
+
+MODELO ENTIDAD-RELACION: Es el tipo de modelado mas conocido. Es un metodo para diseñar bases de datos que posteriormente seran implementadas en un SGBD(Sistema de Gestion de Bases de Datos). Este modelo se representa a traves de diagramas y esta formado por varios elementos
+
+EL DER esta compuesto por 3 cosas: Entidades, Atributos, Relaciones
+
+Entidades: Son como los objetos en la POO. Se representan con cuadrados
+Atributos: Es lo mismo que en POO. Caractericas de las entidades, la diferencia es que aqui hay que definir que tipo de dato es.
