@@ -2,7 +2,7 @@
 
 
 --Explicita: le decimos a SQL que vamos a usar el innerjoin
-SELECT * from empleado INNER JOIN departamento ON empleado.id_dpto = departamento.id 
+SELECT * from empleado INNER JOIN departamento ON empleado.id_dpto = departamento.id_departamento 
 
 --Implicita: le ocultamos a SQL el innerjoin, pero igual lo estamos usando
 SELECT * from empleado,departamento WHERE empleado.id_dpto = departamento.id

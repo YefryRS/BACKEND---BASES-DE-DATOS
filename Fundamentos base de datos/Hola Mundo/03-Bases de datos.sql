@@ -22,3 +22,9 @@ values
     ("mackbook",1,"apple");
 
 --left join
+/* METODOS PARA EL CRUD
+POST -> CREATE
+GET -> READ
+PUT -> UDPATE
+DELETE -> DELETE
+ */

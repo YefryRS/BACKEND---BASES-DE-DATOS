@@ -41,3 +41,9 @@ select min(edad) as menor from user1;  /*Solo me trae el de menor edad*/
 select id, name from user1; /*Seleccionamos solo la columna de id y name*/
 select id,name as Nombre from user1;/*Cambiamos el nombre de la columna 
 "name" por cualquier otro nombre */
+
+/* 
+
+Tienes una tabla llamada "Productos" con las columnas "ProductID" (clave primaria), "Nombre," "Precio" y "CategoryID" (clave foránea hacia la tabla Categorías). Deseas encontrar el precio promedio de los productos en cada categoría.
+
+*/

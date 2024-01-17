@@ -6,9 +6,9 @@ use holamundo; /*Cual es la BD que vamos a usar*/
 -- Crear tabla
 CREATE TABLE animals (
 	id int,
-    tipo varchar(255),
-    estado varchar(255),
-    PRIMARY KEY (id)
+  tipo varchar(255),
+  estado varchar(255),
+  PRIMARY KEY (id)
 );
 
 /*Insetar datos*/
@@ -16,6 +16,9 @@ CREATE TABLE animals (
 
 --Modificar una tabla que ya ha sido creada
 ALTER TABLE animals MODIFY COLUMN id int auto_increment;
+
+--Agregar un nuevo atributo a la tabla
+ALTER TABLE animals ADD COLUMN `especie` varchar after `estado`;
 
 /*Crear la tabla con el yd primary key y que el id sea 
 autoincrementable*/
@@ -44,6 +47,7 @@ SELECT * FROM animals WHERE estado="feliz" AND tipo="Chanchito";
 /*actalizar los registros*/
 UPDATE animals SET estado = "triste" where id = 3; /* Cambia el
 estado a triste el registro que tenga el id 3*/
+UPDATE animals SET estado = "triste",tipo ="gatito" where id = 3;
 SELECT * FROM animals;
 
 /*eliminar registros*/
@@ -51,3 +55,6 @@ DELETE from animals where id = 3; -- usar el id siempre
 SELECT * FROM animals;
 
 UPDATE animals SET estado = "triste" where id = 2;
+
+-- Eliminar la tabla completa
+DROP TABLE animals;
